@@ -6,11 +6,6 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  printenv:
-    name: Printenv
-    runs-on: ubuntu-latest
-    steps:
-      - run: printenv
   playwright:
     name: Playwright 🎭
     timeout-minutes: 10
