@@ -3,5 +3,11 @@
   "plugins": ["jest"],
   "env": {
     "jest/globals": true
-  }
+  },
+  "overrides": [
+    {
+      "files": "tests/e2e/**",
+      "extends": "plugin:playwright/recommended"
+    }
+  ]
 }
