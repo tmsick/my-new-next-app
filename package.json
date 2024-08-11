@@ -37,6 +37,9 @@
     "serve": "^14.2.3",
     "typescript": "^5.5.4"
   },
+  "engines": {
+    "node": "20.16.0"
+  },
   "volta": {
     "node": "20.16.0"
   },
